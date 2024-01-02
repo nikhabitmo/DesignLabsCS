@@ -1,6 +1,6 @@
 ﻿namespace Task1;
 
-static class FirstTask
+public static class FirstTask
 {
     public static void Main()
     {
@@ -24,7 +24,7 @@ static class FirstTask
         }
     }
 
-    static int[] GenerateRandomArray(int size)
+    public static int[] GenerateRandomArray(int size)
     {
         Random random = new Random();
         int[] array = new int[size];
@@ -35,7 +35,7 @@ static class FirstTask
         return array;
     }
 
-    static void ProcessArray(int[] array)
+    public static void ProcessArray(int[] array)
     {
         var zeroCount = 0;
         foreach (var element in array)

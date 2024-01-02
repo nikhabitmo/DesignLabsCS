@@ -1,6 +1,6 @@
 ﻿namespace Task2;
 
-static class Program
+public static class SecondTask
 {
     static void Main()
     {
@@ -47,7 +47,7 @@ static class Program
         }
     }
 
-    static void RotateMatrix(int[,] matrix, int k)
+    public static void RotateMatrix(int[,] matrix, int k)
     {
         var M = matrix.GetLength(0);
         var N = matrix.GetLength(1);
