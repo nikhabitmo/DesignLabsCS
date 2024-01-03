@@ -6,5 +6,6 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::29F0510F-AF96-43E0-9FFC-80167F1E0A37::net7.0::Lab1Tests.FirstTaskTests.ProcessArray_ShouldSortArrayByAbsoluteValues&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::29F0510F-AF96-43E0-9FFC-80167F1E0A37::net7.0::Lab1Tests.SecondTaskTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B6D1BD87-0AFE-4CEF-8B99-4814901CFB76::net7.0::ToDoListTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

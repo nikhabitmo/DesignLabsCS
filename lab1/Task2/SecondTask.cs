@@ -49,13 +49,13 @@ public static class SecondTask
 
     public static void RotateMatrix(int[,] matrix, int k)
     {
-        var M = matrix.GetLength(0);
-        var N = matrix.GetLength(1);
+        var m = matrix.GetLength(0);
+        var n = matrix.GetLength(1);
 
-        for (var layer = 0; layer < M / 2; layer++)
+        for (var layer = 0; layer < m / 2; layer++)
         {
             var first = layer;
-            var last = M - 1 - layer;
+            var last = m - 1 - layer;
 
             for (var i = 0; i < k; i++)
             {
