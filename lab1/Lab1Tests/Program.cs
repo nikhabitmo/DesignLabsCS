@@ -41,7 +41,7 @@ public class SecondTaskTests
     {
         // Arrange
         int[,] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-        int k = 1;
+        var k = 1;
 
         // Act
         SecondTask.RotateMatrix(matrix, k);
@@ -55,7 +55,7 @@ public class SecondTaskTests
     {
         // Arrange
         int[,] matrix = { { 11, 22, 33 }, { 44, 55, 66 }, { 77, 88, 99 } };
-        int k = 1;
+        var k = 1;
 
         // Act
         SecondTask.RotateMatrix(matrix, k);

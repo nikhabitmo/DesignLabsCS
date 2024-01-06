@@ -19,7 +19,7 @@ public class ToDoListService
         while (true)
         {
             _consoleInterface.ShowMenu();
-            string? choice = System.Console.ReadLine();
+            var choice = System.Console.ReadLine();
 
             switch (choice)
             {
@@ -44,7 +44,7 @@ public class ToDoListService
 
     public void AddTask()
     {
-        TaskItem newTask = _consoleInterface.AddTask();
+        var newTask = _consoleInterface.AddTask();
         _toDoList.Tasks.Add(newTask);
         System.Console.WriteLine("Task added successfully.\n");
     }

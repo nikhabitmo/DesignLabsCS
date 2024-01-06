@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8pAg7BoNP66VI9tWOY5zXoXdDnmyK+Dg5lJJB5q7Qua19zJ4w/5l8/K6oZv5Mnuh1u6lIqM+jByJcn28lsXujA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikha\\RiderProjects\\DesignLabsCS\\Lab2.Tests\\Lab2.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikha\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

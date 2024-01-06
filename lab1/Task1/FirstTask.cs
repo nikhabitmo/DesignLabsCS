@@ -26,9 +26,9 @@ public static class FirstTask
 
     public static int[] GenerateRandomArray(int size)
     {
-        Random random = new Random();
-        int[] array = new int[size];
-        for (int i = 0; i < size; i++)
+        var random = new Random();
+        var array = new int[size];
+        for (var i = 0; i < size; i++)
         {
             array[i] = (random.Next(10) - 3);
         }
