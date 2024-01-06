@@ -42,9 +42,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[4.0.1, )"
+            },
+            "SQLitePCLRaw.bundle_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.5, )"
             }
           },
           "imports": [
@@ -100,6 +112,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "SQLitePCLRaw.bundle_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

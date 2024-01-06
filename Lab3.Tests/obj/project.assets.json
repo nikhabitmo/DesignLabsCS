@@ -879,11 +879,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_sqlite3/2.0.7": {
+      "SQLitePCLRaw.bundle_sqlite3/2.1.7": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.7",
-          "SQLitePCLRaw.provider.sqlite3": "2.0.7"
+          "SQLitePCLRaw.provider.sqlite3": "2.1.7"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -3253,15 +3252,15 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "SQLitePCLRaw.bundle_sqlite3/2.0.7": {
-      "sha512": "biz9ENZHWtCSgN5T/8hDnPfKWSDIlC3sOdnB6llhyibxZ74x9foH1UBgJXok4vCmI0IDyDWnK22ZlkZ3i3aZ/w==",
+    "SQLitePCLRaw.bundle_sqlite3/2.1.7": {
+      "sha512": "1sXfoKAwr2/rteqFTw0fypQqrGg9RpfTwjoSrpvOaWAk0Di+1oKniZm7oACLOEEaNlrD9gbA5Jv7NmkMLClqdw==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_sqlite3/2.0.7",
+      "path": "sqlitepclraw.bundle_sqlite3/2.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_sqlite3.2.0.7.nupkg.sha512",
+        "sqlitepclraw.bundle_sqlite3.2.1.7.nupkg.sha512",
         "sqlitepclraw.bundle_sqlite3.nuspec"
       ]
     },
@@ -6596,6 +6595,7 @@
       "Lab3 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "NUnit >= 4.0.1",
+      "SQLitePCLRaw.bundle_sqlite3 >= 2.1.7",
       "xunit >= 2.6.5"
     ]
   },
@@ -6647,6 +6647,10 @@
           "NUnit": {
             "target": "Package",
             "version": "[4.0.1, )"
+          },
+          "SQLitePCLRaw.bundle_sqlite3": {
+            "target": "Package",
+            "version": "[2.1.7, )"
           },
           "xunit": {
             "target": "Package",

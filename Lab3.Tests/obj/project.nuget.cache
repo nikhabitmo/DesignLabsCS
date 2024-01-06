@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SJgw5JuO96GUbViysJZaVOLGzhX3XLLiT4W5ngLh2kcZvtDIvuSL0u9NtoE9xpXGN/MGPamDoGw+KNnlwofkRw==",
+  "dgSpecHash": "syAs21kdI6nd3EkDjfvctUCSU02UbO8oLnT719qFgEDGFXr15lT55NBCx71jHn1HjdfxbJzF4vYp9p0G89TNzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\nikha\\RiderProjects\\DesignLabsCS\\Lab3.Tests\\Lab3.Tests.csproj",
   "expectedPackageFiles": [
@@ -48,7 +48,7 @@
     "C:\\Users\\nikha\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.bundle_sqlite3\\2.0.7\\sqlitepclraw.bundle_sqlite3.2.0.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.bundle_sqlite3\\2.1.7\\sqlitepclraw.bundle_sqlite3.2.1.7.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.v140\\1.1.14\\sqlitepclraw.lib.e_sqlite3.v140.1.1.14.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.7\\sqlitepclraw.provider.sqlite3.2.1.7.nupkg.sha512",

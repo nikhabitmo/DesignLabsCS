@@ -23,6 +23,7 @@ public class DataStorage
         _jsonFilePath = Path.Combine(_projectDirectory, "tasks.json");
         _xmlFilePath = Path.Combine(_projectDirectory, "tasks.xml");
         _sqliteDbPath = Path.Combine(_projectDirectory, "tasks.db");
+        EnsureFilesAndDatabaseExist();
     }
 
 

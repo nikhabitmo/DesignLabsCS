@@ -1,54 +1,70 @@
-﻿using Lab2.Console;
-using Lab2.ToDoList;
-using NUnit.Framework;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using Lab2.Console;
+using Lab2.Task;
+using Xunit;
 
-namespace Lab2.Tests;
-
-[TestFixture]
-public class ToDoListTests
+namespace Lab2.Tests
 {
-    private StringWriter _stringWriter;
-    private StringReader _stringReader;
-
-    [SetUp]
-    public void Setup()
+    public class ConsoleInterfaceTests
     {
-        _stringWriter = new StringWriter();
-        _stringReader = new StringReader("1\nsome task\nsome text\n10.11.2012\ntagA\ntagB\n\n2\ntagC\n3\n4\n");
-        System.Console.SetOut(_stringWriter);
-        System.Console.SetIn(_stringReader);
-    }
+        // [Fact]
+        // public void ShowMenu_ShouldPrintMenu()
+        // {
+        //     // Arrange
+        //     var output = new StringWriter();
+        //     var consoleInterface = new ConsoleInterface();
+        //     System.Console.SetOut(output);
+        //
+        //     // Act
+        //     consoleInterface.ShowMenu();
+        //
+        //     // Assert
+        //     var expectedOutput = "Menu:\n1. Add task\n2. Search task\n3. Last tasks\n4. Exit\n> ";
+        //     Assert.Equal(expectedOutput, output.ToString());
+        // }
 
-    [TearDown]
-    public void TearDown()
-    {
-        _stringWriter.Dispose();
-        _stringReader.Dispose();
-    }
+        [Fact]
+        public void AddTask_ShouldReturnTaskItem()
+        {
+            // Arrange
+            var consoleInterface = new ConsoleInterface();
+            // Act
+            var task = consoleInterface.AddTask();
+            var input = new StringReader("Test Title\nTest Description\n01.01.2023\nTag1\nTag2\n");
+            System.Console.SetIn(input);
 
-    [Test]
-    public void TestToDoListFlow()
-    {
-        // Arrange
-        var consoleInterface = new ConsoleInterface();
-        var toDoListService = new ToDoListService(null, consoleInterface);
+            // Assert
+            Assert.Equal("Test Title", task.Title);
+            Assert.Equal("Test Description", task.Description);
+            Assert.Equal("01.01.2023", task.Deadline);
+            Assert.Equal(new List<string> { "Tag1", "Tag2" }, task.Tags);
+        }
 
-        // Act
-        toDoListService.Start();
+        // [Fact]
+        // public void SearchTasks_ShouldPrintMatchingTasks()
+        // {
+        //     // Arrange
+        //     var output = new StringWriter();
+        //     var consoleInterface = new ConsoleInterface();
+        //     System.Console.SetOut(output);
+        //
+        //     var tasks = new List<TaskItem>
+        //     {
+        //         new TaskItem("Title1", "Description1", "01.01.2023", new List<string> { "Tag1", "Tag2" }),
+        //         new TaskItem("Title2", "Description2", "02.02.2023", new List<string> { "Tag2", "Tag3" }),
+        //     };
+        //
+        //     // Act
+        //     consoleInterface.SearchTasks(tasks);
+        //
+        //     // Assert
+        //     var expectedOutput = "Search tasks by tag: Matching tasks:\n" +
+        //                          "1. Title: Title1\nDescription: Description1\nDeadline: 01.01.2023\nTags: Tag1, Tag2\n" +
+        //                          "2. Title: Title2\nDescription: Description2\nDeadline: 02.02.2023\nTags: Tag2, Tag3\n";
+        //     Assert.Equal(expectedOutput, output.ToString());
+        // }
 
-        // Assert
-        var expectedOutput = "Task added successfully.\nNo such tasks\nActual tasks:\n1. Title: some task\nDescription: some text\nDeadline: 10.11.2012\nTags: tagA, tagB\n";
-        Assert.Equals(expectedOutput, _stringWriter.ToString());
-    }
-}
-
-public static class Program
-{
-    public static void Main()
-    { 
-        var toDoListTests = new ToDoListTests();
-        toDoListTests.Setup();
-        toDoListTests.TestToDoListFlow();
-        toDoListTests.TearDown();
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Lab2.Task;
 
 namespace Lab2.Console;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -90,7 +91,5 @@ public class ConsoleInterface : IConsoleInterface
 
             taskNumber++;
         }
-    }
-    
-    
+    } 
 }

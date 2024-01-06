@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JK9RKliYIFk8DjNS0VdvNoR5fP1V7KsUMI7+FndOrbfx1BOSAqgmsMLydtQ/3n5euQ4ElQW3w/umzJwbXW5QZw==",
+  "dgSpecHash": "lTOtDas4cpYlEOkWZHHnvlHdvVlhXa+qx6luHhFzzX1cKmpQnmQ33i2tv4o8owOCq3LemNCulChRm8LKFhKHMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nikha\\RiderProjects\\DesignLabsCS\\lab1\\Lab1Tests\\Lab1Tests.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,9 @@
     "C:\\Users\\nikha\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.bundle_sqlite3\\2.1.7\\sqlitepclraw.bundle_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.7\\sqlitepclraw.provider.sqlite3.2.1.7.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -49,6 +52,7 @@
     "C:\\Users\\nikha\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\nikha\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",

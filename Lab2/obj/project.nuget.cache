@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RSYM/XUgUwzpHobZ50uwTjzK4WO0P312+7yh/a5DFlkPq9hY3Zr2OejVnhF7olUGFphQt7gb9ybfXkMZ9OPNaw==",
+  "dgSpecHash": "RJzhMTattpNlyM7AeCqGJvf+rTcgUuwsje1jKES0Z9dcUF55+0FWNdgUTJRe+5jBsgWotmy1yRVYe/vQ/3+J9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\nikha\\RiderProjects\\DesignLabsCS\\Lab2\\Lab2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.bundle_sqlite3\\2.1.7\\sqlitepclraw.bundle_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.7\\sqlitepclraw.provider.sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\nikha\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

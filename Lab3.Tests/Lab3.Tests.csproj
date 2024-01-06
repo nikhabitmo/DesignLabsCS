@@ -17,6 +17,7 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0"/>
         <PackageReference Include="NUnit" Version="4.0.1"/>
+        <PackageReference Include="SQLitePCLRaw.bundle_sqlite3" Version="2.1.7" />
         <PackageReference Include="xunit" Version="2.6.5"/>
     </ItemGroup>
 

@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[17.8.0, )"
             },
+            "SQLitePCLRaw.bundle_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.6.4, )"
@@ -107,6 +111,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "SQLitePCLRaw.bundle_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -160,6 +170,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "SQLitePCLRaw.bundle_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
