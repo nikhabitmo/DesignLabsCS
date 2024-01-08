@@ -12,7 +12,11 @@
           "Microsoft.AspNetCore.Authentication.Negotiate": "7.0.9",
           "Microsoft.AspNetCore.OpenApi": "7.0.9",
           "SQLitePCLRaw.bundle_sqlite3": "2.1.7",
-          "Swashbuckle.AspNetCore": "6.5.0"
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.14",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+          "SQLitePCLRaw.provider.sqlite3.netstandard11": "1.1.14",
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "System.Data.SQLite.Core": "1.0.118"
         },
         "runtime": {
           "Lab4.dll": {}

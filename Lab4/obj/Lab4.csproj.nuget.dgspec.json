@@ -156,9 +156,25 @@
               "target": "Package",
               "version": "[2.1.7, )"
             },
+            "SQLitePCLRaw.lib.e_sqlite3.v140": {
+              "target": "Package",
+              "version": "[1.1.14, )"
+            },
+            "SQLitePCLRaw.provider.sqlite3": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "SQLitePCLRaw.provider.sqlite3.netstandard11": {
+              "target": "Package",
+              "version": "[1.1.14, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.118, )"
             }
           },
           "imports": [

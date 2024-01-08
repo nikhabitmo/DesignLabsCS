@@ -16,14 +16,14 @@ public class TasksController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<TaskItem>> Get()
+    public ActionResult<IEnumerable<TaskItem>> GetFromSqlite()
     {
         var tasks = _dataStorage.LoadFromSQLite();
         return Ok(tasks);
     }
 
     [HttpPost]
-    public ActionResult Post([FromBody] List<TaskItem> tasks)
+    public ActionResult PostToSqlite([FromBody] List<TaskItem> tasks)
     {
         _dataStorage.SaveToSQLite(tasks);
         return Ok();

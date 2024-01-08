@@ -11,6 +11,11 @@
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9"/>
         <PackageReference Include="SQLitePCLRaw.bundle_sqlite3" Version="2.1.7" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+        <PackageReference Include="SQLitePCLRaw.bundle_sqlite3" Version="2.0.7" />
+        <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3.v140" Version="1.1.14" />
+        <PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.7" />
+        <PackageReference Include="SQLitePCLRaw.provider.sqlite3.netstandard11" Version="1.1.14" />
+        <PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
     </ItemGroup>
 
     <ItemGroup>

@@ -13,16 +13,13 @@ namespace Lab3.DataStorage;
 
 public class DataStorage
 {
-    private readonly string _projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
-    private readonly string _jsonFilePath;
-    private readonly string _xmlFilePath;
-    private readonly string _sqliteDbPath;
+    private readonly string _jsonFilePath = "C:\\Users\\nikha\\RiderProjects\\DesignLabsCS\\Lab3\\bin\\Debug\\net7.0\\tasks.json";
+    private readonly string _xmlFilePath = "C:\\Users\\nikha\\RiderProjects\\DesignLabsCS\\Lab3\\bin\\Debug\\net7.0\\tasks.xml";
+    private readonly string _sqliteDbPath =
+        "C:\\Users\\nikha\\RiderProjects\\DesignLabsCS\\Lab3\\bin\\Debug\\net7.0\\tasks.db";
 
     public DataStorage()
     {
-        _jsonFilePath = Path.Combine(_projectDirectory, "tasks.json");
-        _xmlFilePath = Path.Combine(_projectDirectory, "tasks.xml");
-        _sqliteDbPath = Path.Combine(_projectDirectory, "tasks.db");
         EnsureFilesAndDatabaseExist();
     }
 
@@ -44,6 +41,10 @@ public class DataStorage
 
         if (!File.Exists(_sqliteDbPath))
         {
+            using (var fileStream = File.Create(_sqliteDbPath))
+            {
+                fileStream.Close();
+            }
             Batteries.Init();
             using (var connection = new SQLiteConnection($"Data Source={_sqliteDbPath};Version=3;"))
             {
