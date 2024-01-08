@@ -48,7 +48,7 @@ namespace Lab5
         {
             // Handle selection change if needed
         }
-        
+
         private void AddMenuItem_Click(object sender, RoutedEventArgs e)
         {
             AddTaskDialog addTaskDialog = new AddTaskDialog();

@@ -5,12 +5,12 @@ namespace Lab2.ToDoList;
 
 public class ToDoListService
 {
-    private ToDoList _toDoList;
+    public ToDoList ToDoList { get; private set; }
     private readonly IConsoleInterface _consoleInterface;
 
     public ToDoListService(ToDoList? toDoList, IConsoleInterface? consoleInterface)
     {
-        _toDoList = toDoList ?? new ToDoList(new List<TaskItem>());
+        ToDoList = toDoList ?? new ToDoList(new List<TaskItem>());
         _consoleInterface = consoleInterface ?? new ConsoleInterface();
     }
 
@@ -45,7 +45,7 @@ public class ToDoListService
     public void AddTask()
     {
         var newTask = _consoleInterface.AddTask();
-        _toDoList.Tasks.Add(newTask);
+        ToDoList.Tasks.Add(newTask);
         System.Console.WriteLine("Task added successfully.\n");
     }
     
@@ -53,17 +53,17 @@ public class ToDoListService
     {
         foreach (var task in tasks)
         {
-            _toDoList.Tasks.Add(task);
+            ToDoList.Tasks.Add(task);
         }
     }
 
     public void SearchTasks()
     {
-        _consoleInterface.SearchTasks(_toDoList.Tasks);
+        _consoleInterface.SearchTasks(ToDoList.Tasks);
     }
 
     public void DisplayLastTasks()
     {
-        _consoleInterface.DisplayLastTasks(_toDoList.Tasks);
+        _consoleInterface.DisplayLastTasks(ToDoList.Tasks);
     }
 }

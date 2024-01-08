@@ -36,7 +36,7 @@
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Image Source="expand_icon.png" Width="20" Height="20" VerticalAlignment="Center" Cursor="Hand" MouseLeftButtonDown="ExpandIcon_MouseLeftButtonDown"/>
+                        <Image Source="C:\Users\nikha\RiderProjects\DesignLabsCS\Lab5\expand_icon.png" Width="20" Height="20" VerticalAlignment="Center" Cursor="Hand" MouseLeftButtonDown="ExpandIcon_MouseLeftButtonDown"/>
                         <Expander Grid.Column="1" Header="{Binding Title}" IsExpanded="False">
                             <StackPanel>
                                 <TextBlock Text="{Binding Description}" Margin="10,0,0,0"/>

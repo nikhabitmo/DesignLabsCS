@@ -3,27 +3,29 @@
   &lt;Assembly Path="C:\Users\nikha\RiderProjects\DesignLabsCS\lab1\bin\Debug\net7.0\lab1.dll" /&gt;&#xD;
   &lt;Assembly Path="C:\Users\nikha\RiderProjects\DesignLabsCS\Lab3\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0cda56ec_002D9faf_002D4eae_002Da744_002D71b098ee18da/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConsoleInterfaceTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7c2487b6_002D7c8f_002D4f54_002Db84e_002D0627a8a97a48/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TaskItem_Constructor_SetsPropertiesCorrectly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ConsoleInterfaceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ToDoListTests.TaskItem_Constructor_SetsPropertiesCorrectly&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ToDoListTests.ToDoListService_AddTask_AddsTaskToList&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=164fe600_002D83cb_002D40bc_002D9f79_002D9c1ad88c701f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConsoleInterfaceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7cc117fe_002Dd80b_002D45ae_002Db54a_002D8ca99c9312fb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TaskItemTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ConsoleInterfaceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ToDoListTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=25e6875b_002D9f3b_002D4b5a_002D8bac_002D892a9a27f57c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddTask_ShouldReturnTaskItem" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9dd08ce5_002D0354_002D420c_002Db877_002D95096c47c349/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConsoleInterface_AddTask_ReturnsValidTask" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ConsoleInterfaceTests.AddTask_ShouldReturnTaskItem&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ToDoListTests.ConsoleInterface_AddTask_ReturnsValidTask&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d23b1684_002Ddd07_002D445e_002Db1b0_002Df338d47dc6fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddTask_ShouldReturnTaskItem #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F867FCE4-EB62-41CE-BD6C-645BD157731B::net7.0::Lab2.Tests.ConsoleInterfaceTests.AddTask_ShouldReturnTaskItem&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::B86CE271-E7F2-49CB-BA03-C9BBE3C685B4::net7.0::Lab3.Tests.DataStorageTests&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
 	
 	
 	

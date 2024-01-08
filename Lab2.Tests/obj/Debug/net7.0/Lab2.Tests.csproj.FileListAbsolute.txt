@@ -102,3 +102,6 @@ C:\Users\nikha\RiderProjects\DesignLabsCS\Lab2.Tests\bin\Debug\net7.0\zh-Hans\Mi
 C:\Users\nikha\RiderProjects\DesignLabsCS\Lab2.Tests\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\nikha\RiderProjects\DesignLabsCS\Lab2.Tests\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\nikha\RiderProjects\DesignLabsCS\Lab2.Tests\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\nikha\RiderProjects\DesignLabsCS\Lab2.Tests\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\nikha\RiderProjects\DesignLabsCS\Lab2.Tests\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\nikha\RiderProjects\DesignLabsCS\Lab2.Tests\bin\Debug\net7.0\SQLitePCLRaw.provider.sqlite3.dll
