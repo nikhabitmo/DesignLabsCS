@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\nikha\RiderProjects\DesignLabsCS\Lab5\App.xaml
-2771968340
+31934745920
 
-4-606691191
+7-1185696071
 245246546667
-AddTaskDialog.xaml;MainWindow.xaml;
+AddTaskDialog.xaml;EditTaskDialog.xaml;MainWindow.xaml;
 
 False
 

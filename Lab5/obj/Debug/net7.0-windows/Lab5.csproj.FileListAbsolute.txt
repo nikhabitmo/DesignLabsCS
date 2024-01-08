@@ -135,3 +135,5 @@ C:\Users\nikha\RiderProjects\DesignLabsCS\Lab5\bin\Debug\net7.0-windows\runtimes
 C:\Users\nikha\RiderProjects\DesignLabsCS\Lab5\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.ServiceProcess.ServiceController.dll
 C:\Users\nikha\RiderProjects\DesignLabsCS\Lab5\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.Speech.dll
 C:\Users\nikha\RiderProjects\DesignLabsCS\Lab5\obj\Debug\net7.0-windows\Lab5_MarkupCompile.lref
+C:\Users\nikha\RiderProjects\DesignLabsCS\Lab5\obj\Debug\net7.0-windows\EditTaskDialog.baml
+C:\Users\nikha\RiderProjects\DesignLabsCS\Lab5\obj\Debug\net7.0-windows\EditTaskDialog.g.cs
