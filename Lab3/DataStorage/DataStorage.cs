@@ -31,9 +31,6 @@ public class DataStorage
             File.Create(_jsonFilePath).Close();
         }
 
-        System.Console.WriteLine(_jsonFilePath);
-        System.Console.WriteLine(_xmlFilePath);
-
         if (!File.Exists(_xmlFilePath))
         {
             File.Create(_xmlFilePath).Close();
@@ -100,7 +97,7 @@ public class DataStorage
         using (var connection = new SQLiteConnection($"Data Source={_sqliteDbPath};Version=3;"))
         {
             connection.Open();
-            connection.Execute("DELETE FROM Tasks"); // Очищаем таблицу перед сохранением новых данных
+            connection.Execute("DELETE FROM Tasks");
 
             foreach (var task in tasks)
             {
